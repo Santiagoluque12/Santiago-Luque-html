@@ -6,95 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../stylep.css">
     <link rel="shortcut icon" href="../archivos multimedia/logo.jpeg" type="image/x-icon">
-    <title>Preguntas</title>
+    <title>Curso</title>
 </head>
 
 <body>
     <header>
-        <section class="Black">
-            <img class="logo" src="../archivos multimedia/logo1.JPG" alt="logo">
-            <nav>
-                <a class="enlaces" href="../index.html">inicio</a>
-                <a class="enlaces" href="./pagina1.html">Curso</a>
-                <a class="enlaces" href="./pagina2.html">Preguntas frecuentes</a>
-                <a class="enlaces" href="./pagina4.html">Productos</a>
-                <a class="enlaces" href="./pagina4.html">Turnos</a>
-            </nav>
-        </section>
+        <img class="logo" src="../archivos multimedia/logo1.JPG" alt="logo">
+        <nav class="nav">
+            <a class="enlaces" href="../index.html">Inicio</a>
+            <a class="enlaces" href="./pagina1.html">Curso</a>
+            <a class="enlaces" href="./pagina2.html">Preguntas frecuentes</a>
+            <a class="enlaces" href="./pagina3.html">Productos</a>
+            <a class="enlaces" href="./pagina4.html">Turnos</a>
+        </nav>
     </header>
     <main>
         <section>
             <h1>BlackJack</h1>
-            <h2 class="lista">¿Quienes somos?</h2>
+        </section>
+        <section class="subtituloh2">
+            <h2>Cursos</h2>
+        </section>
+        <section>
+            <h3 class="tamañosubtit">Técnicas avanzadas de corte</h3>
             <p>
-                En Black Jack, somos más que una barbería. Somos un espacio dedicado al cuidado y estilo masculino,
-                donde combinamos tradición y modernidad para ofrecerte una experiencia única. Aquí no solo puedes
-                reservar tu turno para un corte impecable o un afeitado clásico, sino que también encontrarás una
-                selección exclusiva de productos para mantener tu estilo en su mejor forma.
+                Perfecciona tu técnica con estilos modernos, texturización y cortes personalizados para cada tipo de
+                rostro y cabello.
             </p>
         </section>
         <section>
-            <h2 class="lista">¿Cómo reservar un turno?</h2>
+            <h3 class="tamañosubtit">Barbería Moderna y Tendencias</h3>
             <p>
-            <ol>
-                <li>Elige tu Servicio: Decide si necesitas un corte de cabello, afeitado, arreglo de barba o un combo
-                    completo.</li>
-                <li>Selecciona la Fecha y Hora: Escoge el día y la hora que mejor se adapten a tu agenda.
-                </li>
-                <li>Confirma tu Reserva: Una vez que hayas elegido, confirma tu turno para asegurarte de tener tu lugar
-                    reservado.</li>
-            </ol>
+                Enfocado en las últimas tendencias y estilos urbanos, desde cortes en capas hasta diseños con navaja.
             </p>
         </section>
         <section>
-            <h2 class="lista">¿Cómo comprar en BlackJack?</h2>
+            <h3 class="tamañosubtit">Color y Estilismo Masculino</h3>
             <p>
-            <ol>
-                <li>Explora Nuestra Tienda: Navega por nuestras categorías y encuentra los mejores productos para el
-                    cuidado de tu cabello, barba y piel.</li>
-                <li>Agrega al Carrito: Cuando encuentres lo que necesitas, haz clic en "Agregar al Carrito" para guardar
-                    tus productos.</li>
-                <li>Revisa tu Carrito: Antes de finalizar, verifica que todo esté correcto y que no te falte nada.</li>
-                <li>Completa tu Pedido: Ingresa tus datos de envío y elige tu método de pago preferido.
-                </li>
-                <li>Recibe tu Compra: Solo espera y recibe tu pedido en la puerta de tu casa, listo para mantener tu
-                    estilo siempre en alto.
-                </li>
-            </ol>
+                Técnicas para aplicar tintes, decoloraciones y tratamientos para el cabello masculino.
             </p>
         </section>
         <section>
-            <h2 class="lista">¿Cómo inscribirme en BlackJack?</h2>
+            <h3 class="tamañosubtit">Marketing y Creación de Marca para Barberos</h3>
             <p>
-            <ul>
-                <li>Explora Nuestros Cursos: Visita nuestra sección de formación y encuentra el curso que más se ajuste
-                    a tu nivel e intereses, desde cortes clásicos hasta técnicas avanzadas.</li>
-                <li>Selecciona tu Curso: Haz clic en el curso que te interese para ver todos los detalles, incluyendo
-                    fechas, duración y temario.</li>
-                <li>Completa el Formulario de Inscripción: Ingresa tus datos personales y asegúrate de llenar todos los
-                    campos requeridos.</li>
-                <li>Realiza el Pago: Escoge el método de pago que prefieras para confirmar tu inscripción.</li>
-                <li>¡Listo! Una vez confirmado, recibirás un correo con todos los detalles para empezar tu formación y
-                    llevar tu talento al siguiente nivel.</li>
-            </ul>
+                Aprende a construir tu marca personal, atraer más clientes y hacer crecer tu negocio.
             </p>
+        </section>
+        <h2 class="curso">Inscribite</h2>
+        <section class="inscribitecurso">
+            <form action="/sumbit" method="post">
+                <section>
+                    <label for="Nombre">Nombre y Apellido</label>
+                    <input type="text" name="Nombre" id="Nombre">
+                </section>
+                <section>
+                    <label for="nacimiento">Fecha de nacimiento</label>
+                    <input type="month" name="nacimiento" id="nacimiento">
+                </section>
+                <section>
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" name="correo" id="correo">
+                </section>
+                <section>
+                    <label for="numero">Número de teléfono</label>
+                    <input type="number" name="numero" id="numero">
+                </section>
+                <section>
+                    <label for="curso">Curso de inscripción</label>
+                    <select name="curso" id="curso">
+                        <option value="">Técnicas avanzadas de corte</option>
+                        <option value="">Barbería Moderna y Tendencias</option>
+                        <option value="">Color y Estilismo Masculino</option>
+                        <option value="">Marketing y Creación de Marca para Barberos</option>
+                    </select>
+                </section>
+                <section>
+                    <label for="Pago">Forma de pago</label>
+                    <select name="pago" id="pago">
+                        <option value="pago">Efectivo en el local</option>
+                        <option value="pago">Transferencias bancarias</option>
+                        <option value="pago">Tarjeta de débito</option>
+                        <option value="pago">Tarjeta de crédito</option>
+                    </select>
+                </section>
         </section>
         <section>
-            <h2 class="lista">¿Que medios de pago recibimos?</h2>
-            <p>
-            <ul>
-                <li>Efectivo en el Local: Puedes pagar directamente en nuestro local al momento de tu corte o al comprar
-                    productos.</li>
-                <li>Transferencias: Aceptamos transferencias bancarias de cualquier entidad para mayor comodidad.</li>
-                <li>Tarjetas de Débito y Crédito: Puedes usar tu tarjeta de débito o crédito para pagar de manera rápida
-                    y segura.</li>
-            </ul>
-            </p>
+            <h2 class="lista"> A la brevedad te enviaremos un correo electrónico con toda la información.</h2>
         </section>
+        <section>
+            <h2 class="lista">¡Gracias por sumarte!</h2>
+        </section>
+        </form>
     </main>
     <footer>
+        <h2 class="redes"> Seguinos en nuestras redes sociales</h2>
         <section class="redesubi">
-            <h2 class="redes"> Seguinos en nuestras redes sociales</h2>
             <a href="https://www.facebook.com/?locale=es_LA">
                 <img class="imagenesredes" src="../archivos multimedia/facebook.jpg" alt="facebook">
             </a>
@@ -109,7 +115,6 @@
             </a>
         </section>
     </footer>
-
 </body>
 
 </html>
