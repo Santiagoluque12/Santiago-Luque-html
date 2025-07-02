@@ -12,89 +12,80 @@
 <body>
     <header>
         <img class="logo" src="../archivos multimedia/logo1.JPG" alt="logo">
-        <nav class="nav">
-            <a class="enlaces" href="../index.html">Inicio</a>
-            <a class="enlaces" href="./pagina1.html">Curso</a>
-            <a class="enlaces" href="./pagina2.html">Preguntas frecuentes</a>
-            <a class="enlaces" href="./pagina3.html">Productos</a>
-            <a class="enlaces" href="./pagina4.html">Turnos</a>
-        </nav>
+        <section class="nav">
+            <nav>
+                <a class="enlaces" href="../index.html">Inicio</a>
+                <a class="enlaces" href="../paginas/pagina1.html">Curso</a>
+                <a class="enlaces" href="../paginas/pagina2.html">Preguntas frecuentes</a>
+                <a class="enlaces" href="../paginas/pagina3.html">Productos</a>
+                <a class="enlaces" href="../paginas/pagina4.html">Turnos</a>
+            </nav>
+        </section>
     </header>
     <main>
-        <section>
-            <h1>BlackJack</h1>
-        </section>
-        <section class="subtituloh2">
-            <h2>Cursos</h2>
-        </section>
-        <section>
-            <h3 class="tamañosubtit">Técnicas avanzadas de corte</h3>
+        <h1>BlackJack</h1>
+
+        <section class="ordencur">
+            <h1>Cursos</h1>
+            <h2>Técnicas avanzadas de corte</h2>
             <p>
                 Perfecciona tu técnica con estilos modernos, texturización y cortes personalizados para cada tipo de
                 rostro y cabello.
             </p>
-        </section>
-        <section>
-            <h3 class="tamañosubtit">Barbería Moderna y Tendencias</h3>
+            <h2>Barbería Moderna y Tendencias</h2>
             <p>
                 Enfocado en las últimas tendencias y estilos urbanos, desde cortes en capas hasta diseños con navaja.
             </p>
-        </section>
-        <section>
-            <h3 class="tamañosubtit">Color y Estilismo Masculino</h3>
+            <h2>Color y Estilismo Masculino</h2>
             <p>
                 Técnicas para aplicar tintes, decoloraciones y tratamientos para el cabello masculino.
             </p>
-        </section>
-        <section>
-            <h3 class="tamañosubtit">Marketing y Creación de Marca para Barberos</h3>
+            <h2>Marketing y Creación de Marca para Barberos</h2>
             <p>
                 Aprende a construir tu marca personal, atraer más clientes y hacer crecer tu negocio.
             </p>
         </section>
         <h2 class="curso">Inscribite</h2>
-        <section class="inscribitecurso">
-            <form action="/sumbit" method="post">
-                <section>
+        <section class="inscripcion">
+            <section class="h1">
+                <form action="/sumbit" method="post">
                     <label for="Nombre">Nombre y Apellido</label>
                     <input type="text" name="Nombre" id="Nombre">
-                </section>
-                <section>
-                    <label for="nacimiento">Fecha de nacimiento</label>
-                    <input type="month" name="nacimiento" id="nacimiento">
-                </section>
-                <section>
-                    <label for="correo">Correo electrónico</label>
-                    <input type="email" name="correo" id="correo">
-                </section>
-                <section>
-                    <label for="numero">Número de teléfono</label>
-                    <input type="number" name="numero" id="numero">
-                </section>
-                <section>
-                    <label for="curso">Curso de inscripción</label>
-                    <select name="curso" id="curso">
-                        <option value="">Técnicas avanzadas de corte</option>
-                        <option value="">Barbería Moderna y Tendencias</option>
-                        <option value="">Color y Estilismo Masculino</option>
-                        <option value="">Marketing y Creación de Marca para Barberos</option>
-                    </select>
-                </section>
-                <section>
-                    <label for="Pago">Forma de pago</label>
-                    <select name="pago" id="pago">
-                        <option value="pago">Efectivo en el local</option>
-                        <option value="pago">Transferencias bancarias</option>
-                        <option value="pago">Tarjeta de débito</option>
-                        <option value="pago">Tarjeta de crédito</option>
-                    </select>
-                </section>
+            </section>
+            <section class="h2">
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="month" name="nacimiento" id="nacimiento">
+            </section>
+            <section class="h3">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" name="correo" id="correo">
+            </section>
+            <section class="h4">
+                <label for="numero">Número de teléfono</label>
+                <input type="number" name="numero" id="numero">
+            </section>
+            <section class="h5">
+                <label for="curso">Curso de inscripción</label>
+                <select name="curso" id="curso">
+                    <option value="">Técnicas avanzadas de corte</option>
+                    <option value="">Barbería Moderna y Tendencias</option>
+                    <option value="">Color y Estilismo Masculino</option>
+                    <option value="">Marketing y Creación de Marca para Barberos</option>
+                </select>
+            </section>
+            <section class="h6">
+                <label for="Pago">Forma de pago</label>
+                <select name="pago" id="pago">
+                    <option value="pago">Efectivo en el local</option>
+                    <option value="pago">Transferencias bancarias</option>
+                    <option value="pago">Tarjeta de débito</option>
+                    <option value="pago">Tarjeta de crédito</option>
+                </select>
+            </section>
         </section>
-        <section>
-            <h2 class="lista"> A la brevedad te enviaremos un correo electrónico con toda la información.</h2>
-        </section>
-        <section>
-            <h2 class="lista">¡Gracias por sumarte!</h2>
+        <section class="lista">
+            <h2> A la brevedad te enviaremos un correo electrónico con toda la información.</h2>
+            <h3>¡Gracias por sumarte!</h3>
         </section>
         </form>
     </main>

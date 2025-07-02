@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../styles/stylep.css">
     <link rel="shortcut icon" href="../archivos multimedia/logo.jpeg" type="image/x-icon">
     <title>Productos</title>
@@ -12,18 +13,20 @@
 <body>
     <header>
         <img class="logo" src="../archivos multimedia/logo1.JPG" alt="logo">
-        <nav class="nav">
-            <a class="enlaces" href="../index.html">Inicio</a>
-            <a class="enlaces" href="./pagina1.html">Curso</a>
-            <a class="enlaces" href="./pagina2.html">Preguntas frecuentes</a>
-            <a class="enlaces" href="./pagina3.html">Productos</a>
-            <a class="enlaces" href="./pagina4.html">Turnos</a>
-        </nav>
+        <section class="nav">
+            <nav>
+                <a class="enlaces" href="../index.html">Inicio</a>
+                <a class="enlaces" href="./pagina1.html">Curso</a>
+                <a class="enlaces" href="./pagina2.html">Preguntas frecuentes</a>
+                <a class="enlaces" href="./pagina3.html">Productos</a>
+                <a class="enlaces" href="./pagina4.html">Turnos</a>
+            </nav>
+        </section>
     </header>
     <main>
-        <section>
+        <section class="productos">
             <h1>Productos</h1>
-            <p>
+            <p class="animate__animated animate__fadeInDown">
                 Los mejores productos los encontras en BlackJack
             </p>
         </section>
@@ -36,12 +39,12 @@
                 <option value="pago">Efectivo en un pago por pago fácil</option>
             </select>
         </section>
-        <section class=" buscador">
+        <section class="buscador">
             <label for="buscar">Buscar</label>
             <input type="search" name="buscar" id="buscar">
         </section>
         <h2 class="produsubtitulos">Maquinas de corte</h2>
-        <section class="grid">
+        <section class="ordenprod">
             <figure class="imagenesprodu" class="ubicacion h1">
                 <img class="productoimg" src="../archivos multimedia/maquina 1.jpg" alt="maquina1">
                 <figcaption>
@@ -72,7 +75,7 @@
             </figure>
         </section>
         <h2 class="produsubtitulos">Maquinas de corte patilleras</h2>
-        <section class="grid">
+        <section class="ordenprod">
             <figure class="imagenesprodu">
                 <img class="productoimg" src="../archivos multimedia/patillera 1.jpg" alt="patillera1">
                 <figcaption>
@@ -103,7 +106,7 @@
             </figure>
         </section>
         <h2 class="produsubtitulos">Afeitadoras</h2>
-        <section class="grid">
+        <section class="ordenprod">
             <figure class="imagenesprodu">
                 <img class="productoimg" src="../archivos multimedia/afeitadora 1.jpg" alt="afeitadora1">
                 <figcaption>
@@ -134,7 +137,7 @@
             </figure>
         </section>
         <h2 class="produsubtitulos">Tijeras</h2>
-        <section class="grid">
+        <section class="ordenprod">
             <figure class="imagenesprodu">
                 <img class="productoimg" src="../archivos multimedia/tijera 1.jpg" alt="tijera1">
                 <figcaption>
@@ -165,7 +168,7 @@
             </figure>
         </section>
         <h2 class="produsubtitulos">Combos</h2>
-        <section class="grid">
+        <section class="ordenprod">
             <figure class="imagenesprodu">
                 <img class="productoimg" src="../archivos multimedia/combo 2.jpg" alt="combo2">
                 <figcaption>

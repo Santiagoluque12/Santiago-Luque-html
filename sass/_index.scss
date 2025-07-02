@@ -1,0 +1,118 @@
+body {
+    background-color: rgba(179, 177, 177, 0.404);
+
+    header {
+
+        background-color: rgba(0, 0, 0, 0.966);
+
+        .logo {
+            height: 90px;
+            border-radius: 5px;
+        }
+
+        .nav {
+            font-size: 15px;
+            display: grid;
+            justify-content: center;
+
+        }
+
+        .enlaces {
+            border: 1px solid rgb(59, 59, 59);
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 20px;
+            padding: 0px 20px;
+            margin: 10px;
+        }
+    }
+
+    main {
+        background-color: rgba(179, 177, 177, 0.404);
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            color: rgb(41, 41, 41);
+            font-size: 5rem;
+            border: 1px solid rgb(134, 114, 0);
+        }
+
+        .contenedor {
+            width: 800px;
+        }
+
+        .curso {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            color: rgba(0, 0, 0, 0.795);
+            font-size: 5rem;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgb(134, 114, 0);
+            border-radius: 10px;
+        }
+
+        .imagenlugar {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imagencur {
+            margin: 20px;
+            width: 800px;
+            border-radius: 30px;
+
+        }
+
+        .subtitulos {
+            display: grid;
+            justify-content: start;
+            margin: 20px;
+            font-size: 2rem;
+
+        }
+
+        .donde {
+            display: grid;
+            justify-content: center;
+            font-size: 2rem;
+            margin: 0px;
+            padding: 10px;
+        }
+
+    }
+
+    footer {
+        background-color: rgba(179, 177, 177, 0.404);
+
+        .maps {
+            display: grid;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .redes {
+            display: flex;
+            justify-content: center;
+            font-size: 1rem;
+        }
+
+        .redesubi {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .imagenesredes {
+            margin-left: 20px;
+            width: 50px;
+            border-radius: 10px;
+        }
+
+    }
+}

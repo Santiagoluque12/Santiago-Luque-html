@@ -12,63 +12,66 @@
 <body>
     <header>
         <img class="logo" src="../archivos multimedia/logo1.JPG" alt="logo">
-        <nav class="nav">
-            <a class="enlaces" href="../index.html">Inicio</a>
-            <a class="enlaces" href="./pagina1.html">Curso</a>
-            <a class="enlaces" href="./pagina2.html">Preguntas frecuentes</a>
-            <a class="enlaces" href="./pagina3.html">Productos</a>
-            <a class="enlaces" href="./pagina4.html">Turnos</a>
-        </nav>
+        <section class="nav">
+            <nav>
+                <a class="enlaces" href="../index.html">Inicio</a>
+                <a class="enlaces" href="./pagina1.html">Curso</a>
+                <a class="enlaces" href="./pagina2.html">Preguntas frecuentes</a>
+                <a class="enlaces" href="./pagina3.html">Productos</a>
+                <a class="enlaces" href="./pagina4.html">Turnos</a>
+            </nav>
+        </section>
     </header>
     <main>
-        <section>
-            <h1>Reserva tu turno con nuestros barberos</h1>
-        </section>
+
+        <h1 class="titulo">Reserva tu turno con nuestros barberos</h1>
         <section class="imgturno">
-            <img class="imgturno" src="../archivos multimedia/curso 1.jpg" alt="corte">
+            <img class="imagencur" src="../archivos multimedia/curso 1.jpg" alt="corte">
         </section>
-        <section>
+        <section class="turnosub">
             <ul>
                 <li class="tamañolistaturno">Se tiene tolerancia de hasta 15 minutos posteriores a la hora establecida
                     del turno.</li>
                 <li class="tamañolistaturno">El tiempo de cancelación es de 24 hs antes del turno establecido.</li>
             </ul>
         </section>
-        <section class="sacarturno">
-            <label for="calendario">Elige fecha y hora</label>
-            <input type="datetime-local" name="calendario" id="calendario">
-        </section>
-        <section class="sacarturno">
-            <label for="barbero">Elige Barbero</label>
-            <select name="barbero" id="barbero">
-                <option value="barbero">Julian</option>
-                <option value="barbero">Damian</option>
-                <option value="barbero">Miguel</option>
-                <option value="barbero">Javier</option>
-                <option value="barbero">Matias</option>
-            </select>
-        </section>
-        <section class="sacarturno">
-            <label for="corte">Elige el tipo de corte</label>
-            <select name="tipo" id="tipo">
-                <option value="tipo">Corte clasico</option>
-                <option value="tipo">Corte con barba</option>
-                <option value="tipo">Barba sola</option>
-                <option value="tipo">Color</option>
-                <option value="tipo">Color con corte</option>
-            </select>
-        </section>
-        <section class="sacarturno">
-            <label for="nombre">Nombre y Apellido</label>
-            <input type="text" name="nombre" id="nombre">
-        </section>
-        <section class="sacarturno">
-            <label for="numero">Teléfono</label>
-            <input type="number" name="numero" id="numero">
+        <section class="inscripcion">
+            <section>
+                <label for="calendario">Elige fecha y hora</label>
+                <input type="datetime-local" name="calendario" id="calendario">
+            </section>
+            <section>
+                <label for="barbero">Elige Barbero</label>
+                <select name="barbero" id="barbero">
+                    <option value="barbero">Julian</option>
+                    <option value="barbero">Damian</option>
+                    <option value="barbero">Miguel</option>
+                    <option value="barbero">Javier</option>
+                    <option value="barbero">Matias</option>
+                </select>
+            </section>
+            <section>
+                <label for="corte">Elige el tipo de corte</label>
+                <select name="tipo" id="tipo">
+                    <option value="tipo">Corte clasico</option>
+                    <option value="tipo">Corte con barba</option>
+                    <option value="tipo">Barba sola</option>
+                    <option value="tipo">Color</option>
+                    <option value="tipo">Color con corte</option>
+                </select>
+            </section>
+            <section>
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" name="nombre" id="nombre">
+            </section>
+            <section>
+                <label for="numero">Teléfono</label>
+                <input type="number" name="numero" id="numero">
+            </section>
         </section>
         <section>
             <p class="tamañolistaturno">En breve, le enviaremos un correo electrónico, con el detalle del turno.</p>
-            <h2 class="donde">¡Gracias por confiar en nosotros!</h2>
+            <h2 class="gracias">¡Gracias por confiar en nosotros!</h2>
         </section>
     </main>
     <footer>

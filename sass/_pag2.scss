@@ -1,0 +1,21 @@
+.lista {
+    h2 {
+        display: grid;
+        justify-content: center;
+        font-size: 3rem;
+        color: rgba(0, 0, 0, 0.74);
+        margin: 20px;
+    }
+
+    p {
+        font-size: 2rem;
+        font-weight: 200;
+
+    }
+
+    li {
+        font-size: 2rem;
+        font-weight: 200;
+    }
+
+}

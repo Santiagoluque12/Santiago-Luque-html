@@ -1,0 +1,49 @@
+main {
+    .titulo {
+        font-size: 4rem;
+    }
+
+    .imgturno {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(43, 42, 42, 0.295);
+    }
+}
+
+.tamañolistaturno {
+    display: grid;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgba(39, 39, 39, 0.692);
+}
+
+label {
+    color: rgb(59, 59, 59);
+    margin: 10px;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.123);
+    color: rgb(0, 82, 153);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+select {
+    background-color: rgba(255, 255, 255, 0.123);
+    color: rgb(0, 82, 153);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.gracias {
+    display: grid;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
